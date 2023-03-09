@@ -2,6 +2,8 @@ package TestCart;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.time.Duration;
+
 public class RequiredChecks {
     WebDriver driver;
 
@@ -9,7 +11,7 @@ public class RequiredChecks {
     public void setUp() {
 
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
     }
 
     @Parameters({"username","incorrectpassword"})
