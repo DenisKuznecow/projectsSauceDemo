@@ -5,7 +5,7 @@ public class PageObjectTestApplication {
 
     private WebDriver driver;
 
-    public LoginPage(WebDriver driver) {
+    public void LoginPage(WebDriver driver) {
 
         this.driver = driver;
 
@@ -24,9 +24,9 @@ public class PageObjectTestApplication {
 
     public HomePage correctLogin(String username, String password) {
 
-        driver.findElement(By.name("username")).sendKeys(username);
-        driver.findElement(By.name("password")).sendKeys(password);
-        driver.findElement(By.xpath("//input[@value='Log In']")).click();
+        driver.findElement(By.id("user-name")).sendKeys("standard_user");
+        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        driver.findElement(By.xpath("//*[@id=\\\"login-button\\\"]]\"")).click();
         return new HomePage(driver);
     }
 }
