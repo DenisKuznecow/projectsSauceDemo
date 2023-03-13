@@ -4,7 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2b3a46f-77cd-4710-b996-e72dcc277a8c" name="Changes" comment="No run test" />
+    <list default="true" id="c2b3a46f-77cd-4710-b996-e72dcc277a8c" name="Changes" comment="New test Page Object">
+      <change afterPath="$PROJECT_DIR$/.idea/mavenProjectSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/20d0da6e-c026-4b5e-b678-3e3099f2fd6e-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/5e5874ab-9951-4946-a985-c0a6e307eccc-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/9eb159a5-ccc0-4800-9b31-c1c1da8d879f-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/allure-results/a24ed660-34b7-4285-bc50-7491509b22f0-container.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCart/ConfProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCart/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCart/LoginTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/TestCart/ProfilePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/conf.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_java_commons_2_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_model_2_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_test_filter_2_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_qameta_allure_allure_testng_2_21_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCart/PageObjectTestApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCart/PerformActions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/TestCart/RequiredChecks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestCart/AddCartTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TestCart/LoginAutomation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +42,38 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="New_branch_page_object_model" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master1" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="8b964a59-6b78-4978-83f7-22393b469c92" />
+        <option name="url" value="https://github.com/DenisKuznecow/projectsSauceDemo.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -41,7 +96,9 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.testRunning"
   }
 }]]></component>
   <component name="RunManager" selected="TestNG.Testng">
@@ -60,9 +117,19 @@
     </configuration>
     <configuration name="AddCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projects" />
-      <option name="PACKAGE_NAME" value="" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestCart" />
       <option name="MAIN_CLASS_NAME" value="TestCart.AddCartTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -71,10 +138,20 @@
     </configuration>
     <configuration name="AddCartTest.AddCartTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projects" />
-      <option name="PACKAGE_NAME" value="" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
+      <option name="PACKAGE_NAME" value="TestCart" />
       <option name="MAIN_CLASS_NAME" value="TestCart.AddCartTest" />
       <option name="METHOD_NAME" value="AddCartTest" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -84,6 +161,8 @@
     <configuration name="Testng" type="TestNG" temporary="true">
       <shortenClasspath name="NONE" />
       <useClassPathOnly />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="" />
@@ -92,6 +171,9 @@
       <option name="TEST_OBJECT" value="SUITE" />
       <option name="PARAMETERS" value="" />
       <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="wholeProject" />
+      </option>
       <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
@@ -99,10 +181,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="&lt;default&gt; (2)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="&lt;default&gt;" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="projects" />
+      <shortenClasspath name="NONE" />
+      <useClassPathOnly />
+      <option name="SUITE_NAME" value="" />
       <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
       <option name="TEST_OBJECT" value="PACKAGE" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
       <properties />
       <listeners />
       <method v="2">
@@ -149,7 +240,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678360991395</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="No run test">
+      <created>1678361028775</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1678361028775</updated>
+    </task>
+    <task id="LOCAL-00004" summary="New test Page Object">
+      <created>1678367005787</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678367005787</updated>
+    </task>
+    <task id="LOCAL-00005" summary="New test Page Object">
+      <created>1678369428077</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678369428077</updated>
+    </task>
+    <task id="LOCAL-00006" summary="New test Page Object">
+      <created>1678371754150</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678371754150</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,15 +276,41 @@
       <map>
         <entry key="MAIN">
           <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master1" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="d2d51488-db95-4425-97a8-7b03350d7dcb">
+          <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="d2d51488-db95-4425-97a8-7b03350d7dcb" value="TOOL_WINDOW" />
       </map>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="No run test" />
-    <option name="LAST_COMMIT_MESSAGE" value="No run test" />
+    <MESSAGE value="New test Page Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="New test Page Object" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/projects$Testng.ic" NAME="Testng Coverage Results" MODIFIED="1678708602722" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
