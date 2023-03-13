@@ -6,8 +6,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SauceDemoTest" />
-        <module name="projects" />
+        <module name="TestNg" />
       </profile>
     </annotationProcessing>
   </component>

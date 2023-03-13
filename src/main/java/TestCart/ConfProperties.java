@@ -10,7 +10,7 @@ public class ConfProperties {
     static {
         try {
             //указание пути до файла с настройками
-            fileInputStream = new FileInputStream("src/test/conf.properties");
+            fileInputStream = new FileInputStream("C:\\projects\\ProjectHabrTest\\src\\test\\conf.properties");
             PROPERTIES = new Properties();
             PROPERTIES.load(fileInputStream);
         } catch (IOException e) {
